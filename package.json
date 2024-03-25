@@ -1,0 +1,17 @@
+{
+  "name": "xiaomi-mitv-updates",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/albertodlc/xiaomi-mitv-updates.git",
+  "author": "adelacruz <adelacruz@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./resources/index.css -o ./styles/output.css --watch",
+    "build": "npx tailwindcss -i ./resources/index.css -o ./styles/output.css"
+  }
+}
